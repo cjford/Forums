@@ -1,0 +1,316 @@
+/*
+------------------------------
+$TABLE OF CONTENTS
+------------------------------
+
+ * BASIC ELEMENTS
+ * HEADER ELEMENTS
+ * CONTENT ELEMENTS
+ * CLASSES
+
+*/
+ 
+
+/*
+------------------------------
+BASIC ELEMENTS
+------------------------------
+*/
+
+a:link 
+{
+	color: #000033;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #666688;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+body
+{
+	margin: auto;
+	width: 1000px;
+	font-family: Arial;
+}
+
+form
+{
+	margin: auto;
+}
+
+h1
+{
+	text-decoration:underline;
+	margin:10px 0px 5px 0px;
+}
+
+html
+{
+	color: #000033;
+}
+
+textarea
+{
+	resize: none;
+}
+
+table
+{
+	border-bottom: 1px #000033 solid;
+	border-collapse: collapse;
+	margin: 10px auto;
+	width: 880px;
+}
+
+th
+{
+}
+tr 
+{
+}
+
+td
+{
+	border-top: 1px solid #000033;
+	border-collapse: collapse;
+	height: 40px;
+	text-align: center;
+}
+
+ul
+{
+	margin:0px;
+	padding;0px;
+	-webkit-padding-start:0px;
+}
+
+/* 
+------------------------------
+HEADER ELEMENTS 
+------------------------------
+*/
+
+#content
+{
+	width: 1000px;
+}
+
+#dropdown_nav
+{	
+	margin-top: 6px;
+	padding: 0px;
+	display: inline-block;
+}
+	
+#login_button
+{
+	width: 149px;
+	height: 34px;
+	background: url(/forums/img/buttons.gif) 0px 0px no-repeat;
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#login_button:hover
+{
+	background: url(/forums/img/buttons.gif) 0px -35px no-repeat;
+	border: 0;
+}
+
+#register_button
+{
+	width: 150px;
+	height: 34px;
+	margin-left: 0px;
+	background: url(/forums/img/buttons.gif) -150px 0px no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#register_button:hover
+{
+	background: url(/forums/img/buttons.gif) -150px -35px no-repeat;
+	border: 0;
+}
+
+#search_box
+{
+	margin-top: 4px;
+	margin-right: 10px;
+	margin-left: 0px;
+	display: inline-block;
+}
+
+#user_bar
+{
+	border: 1px #000033 solid;
+	padding: 3px;
+	margin-top: 3px;
+	background-color: #d4d4d4;
+}
+
+	
+/* 
+------------------------------
+CONTENT ELEMENTS
+------------------------------
+*/
+
+#preview_wrapper
+{	
+	background: #d4d4d4;
+	border: 1px #000033 solid;
+	padding: 10px;
+	width: 976px;
+	margin: 10px auto;
+}
+
+#footer
+{
+	background: #D4D4D4;
+	border: 1px #000033 solid;
+	font-size: .75em;
+	margin: 10px auto;
+}
+
+#post_index
+{
+	width: 1000px;
+}
+
+#post_index .topic_name
+{
+	border-left: 1px #000033 solid;
+	width: 400px;
+}
+
+#post_index .last_reply
+{
+	border-right: 1px #000033 solid;
+	width: 240px;
+}
+/* 
+------------------------------
+CLASSES 
+------------------------------
+*/
+
+.center
+{
+	margin: auto;
+	text-align: center;
+}
+
+.error
+{
+	color: red;
+	margin: 5px;
+}
+
+.even_row
+{
+	background-color: #d4d4d4;
+}
+
+.form_back
+{
+	margin: 0px 5px 0px 5px;
+}
+
+.forum_info
+{
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.page_nav li
+{
+	display: inline;
+}
+
+.post_content
+{
+	color: black;
+	padding: 10px;
+}
+
+.post_userbar
+{
+	background-color: #000033;
+	color: white;
+	height: 1.3em;
+	padding: 2px 5px 0px 5px;
+}
+
+.post_wrapper
+{
+	border: 1px #000033 solid;
+	margin: 10px 0px;
+	background-color: #d4d4d4;
+}
+.preview_box
+{
+	background-color: white;
+	border: 1px #000033 solid;
+	margin: 5px auto;
+	width: 900px;
+}
+
+.preview_link
+{
+	color: #000033;
+	font-family: Copperplate;
+	font-size: 2em;
+}
+
+.right
+{
+	float: right;
+}
+
+.toggle_arrow
+{
+	color: #585858;
+	margin-left: 10px;
+	margin-right: 2px;
+}
+
+.topic_name
+{
+	padding-left: 5px;
+	text-align: left;
+}
+
+.shown_ib
+{
+	display: inline-block;
+}
+
+.shown_block
+{
+	display: block;
+}
+
+.user_bar_form
+{
+	display: inline-block;
+}
+
+.username_link
+{
+	color:white !important;
+}
